@@ -48,6 +48,7 @@ span {
     font-weight: bolder;
     opacity: 0;
     box-shadow: 0 0 10px rgba(87, 87, 87, 0.848);
+    font-weight: bolder;
 }
 
 .container h1 {
