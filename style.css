@@ -32,7 +32,7 @@ body {
     position: relative;
 }
 
-.viewVersion {
+.viewMobile {
     display: none;
 }
 
@@ -48,10 +48,9 @@ span {
     font-weight: bolder;
     opacity: 0;
     box-shadow: 0 0 10px rgba(87, 87, 87, 0.848);
-    font-weight: bolder;
 }
 
-.container h1 {
+.viewDesktop h1 {
     font-size: 35px;
     color: #FF6F61;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -188,11 +187,13 @@ tr :last-child {
 
 @media (max-width:900px) {
 
-    .viewVersion {
+    .viewMobile {
         display: block;
-        font-size: 22px;
+        font-size: 25px;
         text-align: center;
+        color: #d4d4d4;
     }
+
     .viewDesktop {
         display: none;
     }
